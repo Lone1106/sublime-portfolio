@@ -1,12 +1,13 @@
 :root {
-    --main-bg: #0D1117;
+    --main-bg: #0d1117;
     --sidebar: #010409;
-    --text: #C9D1D9;
-    --aside: #22272E;
-    --accent-1: #E16E67;
-    --accent-2: #6E5B89;
-    --accent-3: #FFA657;
-    --accent-4: #6D7073;
+    --text: #c9d1d9;
+    --aside: #22272e;
+    --accent-1: #e16e67;
+    --accent-2: #6e5b89;
+    --accent-3: #ffa657;
+    --accent-4: #6d7073;
+    --accent-5: #79bfff;
 }
 
 * {
@@ -18,6 +19,10 @@
 html {
     font-size: 82.5%;
     background-color: black;
-    font-family: 'Ubuntu Mono', monospace;
+    font-family: "Ubuntu Mono", monospace;
     color: var(--text);
+}
+
+i {
+    margin-right: 0.5rem;
 }

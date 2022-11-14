@@ -1,8 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { lazy, Suspense } from "react";
 
-import Sidebar from "../sidebar/Sidebar";
-import Tabs from "../tabs/Tabs";
+import Wrapper from "../wrapper/Wrapper";
 import TopBar from "../top-bar/TopBar";
 import BottomBar from "../bottom-bar/BottomBar";
 
@@ -16,19 +15,19 @@ const Contact = lazy(() => import("../contact/Contact"));
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <Home />,
+        element: <Wrapper comp={<Home />} />,
     },
     {
         path: "about",
-        element: <About />,
+        element: <Wrapper comp={<About />} />,
     },
     {
         path: "projects",
-        element: <Projects />,
+        element: <Wrapper comp={<Projects />} />,
     },
     {
         path: "contact",
-        element: <Contact />,
+        element: <Wrapper comp={<Contact />} />,
     },
 ]);
 
@@ -36,13 +35,11 @@ function Sublime() {
     return (
         <div className={classes.mainContainer}>
             <TopBar />
-            <Tabs />
             <main className={classes.contentArea}>
                 <Suspense fallback={<h1>Error</h1>}>
                     <RouterProvider router={router}></RouterProvider>
                 </Suspense>
             </main>
-            <Sidebar />
             <BottomBar />
         </div>
     );

@@ -1,0 +1,6 @@
+.wrapper {
+    display: grid;
+    grid-template-rows: 45px 1fr;
+    grid-template-columns: 175px 1fr;
+    height: 100%;
+}

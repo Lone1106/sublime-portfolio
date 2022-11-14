@@ -5,12 +5,24 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 .7rem;
+    padding: 0 1rem;
 }
 
 .dots {
     display: flex;
-    gap: .5rem;
+    gap: 0.5rem;
+}
+
+.dot:first-child:hover {
+    background: var(--accent-1);
+}
+
+.dot:nth-child(2):hover{
+    background: var(--accent-3);
+}
+
+.dot:last-child:hover {
+    background: var(--accent-2);
 }
 
 .dot {
@@ -18,8 +30,9 @@
     width: 10px;
     height: 10px;
     border-radius: 100%;
+    transition: background 0.2s;
 }
 
 .title {
-    font-size: 0.8rem;
+    font-size: 1rem;
 }

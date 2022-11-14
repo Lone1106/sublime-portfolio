@@ -2,16 +2,45 @@
     background: var(--sidebar);
     width: 100%;
     height: 100%;
-    grid-row: 2 / -2;
+    grid-row: 1 / -1;
     border-right: 1px solid var(--aside);
-    padding: 2rem 0 0 2rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
 }
 
-.list {
+.folders {
+    text-transform: uppercase;
+    margin-bottom: 0.7rem;
+}
+
+.folder {
+    margin-left: 0.5rem;
+    margin-bottom: 0.7rem;
+}
+
+.sideNav {
     list-style: none;
+    margin-left: 1rem;
 }
 
-.file {
+.sideNav:first-child {
     margin-bottom: 1rem;
-    font-size: 1.2rem;
+}
+
+.navItem:link,
+.navItem:visited {
+    color: var(--text);
+    text-decoration: none;
+    margin-left: 1.2rem;
+    margin-bottom: 0.7rem;
+    transition: color 0.2s;
+    display: block;
+}
+
+.navItem:hover {
+    color: var(--accent-5);
+}
+
+.navItem:active {
+    color: var(--accent-1);
 }

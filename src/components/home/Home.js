@@ -1,7 +1,7 @@
 import classes from "./Home.module.css";
 
 function Home() {
-    return <h1>Home</h1>
+    return <section className={classes.home}>Home</section>;
 }
 
 export default Home;

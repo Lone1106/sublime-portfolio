@@ -1,7 +1,7 @@
 import classes from "./About.module.css";
 
 function About() {
-    return <h1>About</h1>
+    return <section className={classes.about}>About</section>
 }
 
 export default About;

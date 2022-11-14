@@ -3,12 +3,11 @@
     height: 100vh;
     display: grid;
     grid-template-columns: 175px 1fr;
-    grid-template-rows: 25px 35px 1fr 25px;
+    grid-template-rows: 35px 1fr 35px;
 }
 
 .contentArea {
     background: var(--main-bg);
-    grid-column: 2 / -1;
+    grid-column: 1 / -1;
     grid-row: 3 / -3;
-    padding: 1rem 1.8rem;
 }

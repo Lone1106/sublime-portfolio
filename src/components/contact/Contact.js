@@ -1,7 +1,7 @@
 import classes from "./Contact.module.css";
 
 function Contact() {
-    return <h1>Contact</h1>
+    return <section className={classes.contact}>Contact</section>
 }
 
 export default Contact;
