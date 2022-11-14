@@ -1,0 +1,6 @@
+.tabs {
+    background: var(--sidebar);
+    grid-column: 2 / -1;
+    grid-row: 2 / 3;
+    border-bottom: 1px solid var(--aside);
+}

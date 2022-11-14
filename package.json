@@ -1,6 +1,7 @@
 {
   "name": "sublime-portfolio",
   "version": "0.1.0",
+  "author": "Jan Reichherzer",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
