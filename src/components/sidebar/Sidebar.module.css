@@ -4,4 +4,14 @@
     height: 100%;
     grid-row: 2 / -2;
     border-right: 1px solid var(--aside);
+    padding: 2rem 0 0 2rem;
+}
+
+.list {
+    list-style: none;
+}
+
+.file {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
 }

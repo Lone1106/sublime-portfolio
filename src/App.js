@@ -1,9 +1,9 @@
-import "./App.css";
-
 import Sublime from "./components/sublime/Sublime";
 
+import "./App.css";
+
 function App() {
-  return <Sublime />
+  return <Sublime />;
 }
 
 export default App;

@@ -10,4 +10,5 @@
     background: var(--main-bg);
     grid-column: 2 / -1;
     grid-row: 3 / -3;
+    padding: 1rem 1.8rem;
 }

@@ -2,4 +2,24 @@
     background: var(--main-bg);
     grid-column: 1 / -1;
     border-bottom: 1px solid var(--aside);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 .7rem;
+}
+
+.dots {
+    display: flex;
+    gap: .5rem;
+}
+
+.dot {
+    background: var(--accent-4);
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+.title {
+    font-size: 0.8rem;
 }

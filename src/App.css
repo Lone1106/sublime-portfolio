@@ -6,6 +6,7 @@
     --accent-1: #E16E67;
     --accent-2: #6E5B89;
     --accent-3: #FFA657;
+    --accent-4: #6D7073;
 }
 
 * {
@@ -18,4 +19,5 @@ html {
     font-size: 82.5%;
     background-color: black;
     font-family: 'Ubuntu Mono', monospace;
+    color: var(--text);
 }
