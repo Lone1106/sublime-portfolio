@@ -60,15 +60,28 @@
 }
 
 .form:invalid .send {
-    transform: scaleX(0);
+    opacity: 0;
 }
 
 .form:valid .send {
-    transform: scaleX(1);
+    opacity: 1;
 }
 
 .send:hover {
     box-shadow: 0 0 15px var(--accent-3);
+}
+
+.field {
+    width: 100%;
+}
+
+.succ {
+    font-size: 1.6rem;
+}
+
+.error {
+    color: var(--accent-1);
+    font-size: 1.6rem;
 }
 
 @media (max-width: 34rem) {
@@ -84,7 +97,8 @@
         font-size: 1.2rem;
     }
 
-    .input, .area {
+    .input,
+    .area {
         font-size: 1rem;
     }
 }

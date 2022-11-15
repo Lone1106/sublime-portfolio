@@ -2,6 +2,67 @@
     padding: 4rem;
 }
 
+.text {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+.skillItem {
+    margin-bottom: 3rem;
+}
+
+.skills {
+    width: 800px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    font-size: 1.3rem;
+    gap: 1.4rem;
+}
+
+.skills > * {
+    display: inline-block;
+    text-align: center;
+    border: 1px solid transparent;
+    padding: 0.5rem 1.2rem;
+    border-radius: 4px;
+}
+
+.red {
+    border: 1px solid var(--accent-1);
+}
+
+.blue {
+    border: 1px solid var(--accent-5);
+}
+
+.yellow {
+    border: 1px solid var(--accent-3);
+}
+
+.purple {
+    border: 1px solid var(--accent-2);
+}
+
+.green {
+    border: 1px solid var(--accent-6);
+}
+
+.grey {
+    border: 1px solid var(--accent-4);
+}
+
+@media (max-width: 75rem) {
+    .skills {
+        width: 100%;
+    }
+}
+
+@media (min-width: 100em) {
+    .text {
+        width: 50%;
+    }
+}
+
 @media (max-width: 34rem) {
     .about {
         padding: 2rem;
