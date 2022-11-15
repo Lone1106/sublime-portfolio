@@ -7,7 +7,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-template-rows: 50px;
-    grid-auto-rows: 310px;
+    grid-auto-rows: auto;
     gap: 2rem;
     height: 100%;
 }
@@ -108,18 +108,10 @@
     .work {
         width: 100%;
     }
-
-    .workItems {
-        grid-auto-rows: 430px;
-    }
 }
 
 @media (max-width: 34em) {
     .work {
         width: 100%;
-    }
-
-    .workItems {
-        grid-auto-rows: 330px;
     }
 }
