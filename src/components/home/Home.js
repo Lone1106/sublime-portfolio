@@ -13,9 +13,9 @@ function Home() {
                     strings={[
                         "Media designer DTP",
                         "Prepress operator",
-                        "Free time javascript and python dev",
-                        "Interested in learning new stuff",
-                        "Foreign langauge enthusiastic"
+                        "Javascript and python dev",
+                        "Always learning new stuff",
+                        "Foreign language enthusiastic"
                     ]}
                     loop
                     typeSpeed={60}

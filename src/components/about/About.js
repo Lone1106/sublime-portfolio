@@ -38,7 +38,7 @@ function About() {
             <figure className={classes.skillItem}>
                 <h3>Languages</h3>
                 <div className={classes.skills}>
-                    <span className="yellow">German (n)</span>
+                    <span className="yellow">German (N)</span>
                     <span className="blue">English (C1)</span>
                     <span className="red">Japanese (N3)</span>
                 </div>
@@ -50,6 +50,7 @@ function About() {
                     <span className="grey">Prepress</span>
                     <span className="green">Proof reading</span>
                     <span className="purple">CTP</span>
+                    <span className="grey">Color correcting</span>
                 </div>
             </figure>
         </section>
