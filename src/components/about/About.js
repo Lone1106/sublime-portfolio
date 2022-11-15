@@ -1,4 +1,5 @@
 import classes from "./About.module.css";
+import "../../Colors.css";
 
 function About() {
     return (
@@ -13,44 +14,44 @@ function About() {
             <figure className={classes.skillItem}>
                 <h3>Technologies</h3>
                 <div className={classes.skills}>
-                    <span className={classes.red}>HTML</span>
-                    <span className={classes.blue}>CSS</span>
-                    <span className={classes.purple}>Sass</span>
-                    <span className={classes.yellow}>Javascript</span>
-                    <span className={classes.purple}>React</span>
-                    <span className={classes.blue}>Git</span>
-                    <span className={classes.grey}>Wordpress</span>
-                    <span className={classes.red}>Elementor</span>
-                    <span className={classes.grey}>Prepress</span>
-                    <span className={classes.blue}>Python</span>
+                    <span className="red">HTML</span>
+                    <span className="blue">CSS</span>
+                    <span className="purple">Sass</span>
+                    <span className="yellow">Javascript</span>
+                    <span className="purple">React</span>
+                    <span className="blue">Git</span>
+                    <span className="grey">Wordpress</span>
+                    <span className="red">Elementor</span>
+                    <span className="grey">Prepress</span>
+                    <span className="blue">Python</span>
                 </div>
             </figure>
 
             <figure className={classes.skillItem}>
                 <h3>Software</h3>
                 <div className={classes.skills}>
-                    <span className={classes.blue}>Adobe PS</span>
-                    <span className={classes.red}>Packedge</span>
-                    <span className={classes.yellow}>Adobe AI</span>
+                    <span className="blue">Adobe PS</span>
+                    <span className="red">Packedge</span>
+                    <span className="yellow">Adobe AI</span>
                 </div>
             </figure>
 
             <figure className={classes.skillItem}>
                 <h3>Languages</h3>
                 <div className={classes.skills}>
-                    <span className={classes.yellow}>German (n)</span>
-                    <span className={classes.blue}>English (C1)</span>
-                    <span className={classes.red}>Japanese (N3)</span>
+                    <span className="yellow">German (n)</span>
+                    <span className="blue">English (C1)</span>
+                    <span className="red">Japanese (N3)</span>
                 </div>
             </figure>
 
             <figure className={classes.skillItem}>
                 <h3>other Skills</h3>
                 <div className={classes.skills}>
-                    <span className={classes.grey}>Prepress</span>
-                    <span className={classes.green}>Proof reading</span>
-                    <span className={classes.purple}>CTP</span>
-                    <span className={classes.purple}>Color correction</span>
+                    <span className="grey">Prepress</span>
+                    <span className="green">Proof reading</span>
+                    <span className="purple">CTP</span>
+                    <span className="grey">Color correction</span>
                 </div>
             </figure>
         </section>
