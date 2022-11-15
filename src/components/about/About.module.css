@@ -4,6 +4,7 @@
 
 .text {
     font-size: 1.6rem;
+    letter-spacing: 0.5px;
     margin-bottom: 2rem;
 }
 
@@ -25,36 +26,58 @@
     border: 1px solid transparent;
     padding: 0.5rem 1.2rem;
     border-radius: 4px;
+    transition: background 0.2s;
+    letter-spacing: 0.5px;
 }
 
 .red {
     border: 1px solid var(--accent-1);
 }
 
+.red:hover {
+    background: var(--accent-1);
+}
+
 .blue {
     border: 1px solid var(--accent-5);
+}
+
+.blue:hover {
+    background: var(--accent-5);
 }
 
 .yellow {
     border: 1px solid var(--accent-3);
 }
 
+.yellow:hover {
+    background: var(--accent-3);
+    color: var(--main-bg);
+}
+
 .purple {
     border: 1px solid var(--accent-2);
+}
+
+.purple:hover {
+    background: var(--accent-2);
 }
 
 .green {
     border: 1px solid var(--accent-6);
 }
 
+.green:hover {
+    background: var(--accent-6);
+    color: var(--main-bg);
+}
+
 .grey {
     border: 1px solid var(--accent-4);
 }
 
-@media (max-width: 75rem) {
-    .skills {
-        width: 100%;
-    }
+.grey:hover {
+    background: var(--accent-4);
 }
 
 @media (min-width: 100em) {
@@ -63,8 +86,28 @@
     }
 }
 
-@media (max-width: 34rem) {
+@media (max-width: 75em) {
+    .skills {
+        width: 100%;
+    }
+
     .about {
         padding: 2rem;
+        height: 650px;
+        overflow-y: scroll;
+    }
+}
+
+@media (max-width: 57em) {
+    .about {
+        height: 100%;
+    }
+}
+
+@media (max-width: 34em) {
+    .about {
+        padding: 2rem;
+        height: 550px;
+        overflow-y: scroll;
     }
 }
