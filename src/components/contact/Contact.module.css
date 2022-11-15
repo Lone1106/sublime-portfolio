@@ -1,5 +1,5 @@
 .contact {
-    padding: 4rem;
+    padding: 2rem;
 }
 
 .form {
@@ -85,10 +85,6 @@
 }
 
 @media (max-width: 34rem) {
-    .contact {
-        padding: 2rem;
-    }
-
     .form {
         width: 100%;
     }

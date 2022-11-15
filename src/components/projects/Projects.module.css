@@ -1,12 +1,12 @@
 .projects {
-    padding: 4rem;
+    padding: 2rem;
 }
 
 .workItems {
     padding-bottom: 3rem;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    grid-template-rows: 310px;
+    grid-template-rows: 50px;
     grid-auto-rows: 310px;
     gap: 2rem;
     height: 100%;
@@ -17,6 +17,10 @@
     text-align: center;
     border-radius: 4px;
     position: relative;
+}
+
+.header {
+    grid-column: 1 / -1;
 }
 
 .image {
@@ -101,19 +105,25 @@
         width: 100%;
     }
 
+    .workItems {
+        grid-auto-rows: 350px;
+        height: 950px;
+        overflow-y: scroll;
+    }
+}
+
+@media (max-width: 48em) {
+    .workItems {
+        height: 800px;
+    }
 }
 
 @media (max-width: 34em) {
-    .projects {
-        padding: 2rem;
-    }
-
     .work {
         width: 100%;
     }
 
     .workItems {
-        overflow-y: scroll;
-        height: 450px;
+        height: 500px;
     }
 }

@@ -25,7 +25,7 @@ function Home() {
                     <Link to="/contact" className={classes.link}>
                         Contact
                     </Link>
-                    <Link to="/projects" className={classes.link}>
+                    <Link to="/work" className={classes.link}>
                         Work
                     </Link>
                 </div>

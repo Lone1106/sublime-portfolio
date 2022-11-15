@@ -1,5 +1,5 @@
 .about {
-    padding: 4rem;
+    padding: 2rem;
 }
 
 .text {
@@ -42,7 +42,6 @@
     }
 
     .about {
-        padding: 2rem;
         height: 650px;
         overflow-y: scroll;
     }
@@ -56,7 +55,6 @@
 
 @media (max-width: 34em) {
     .about {
-        padding: 2rem;
         height: 550px;
         overflow-y: scroll;
     }

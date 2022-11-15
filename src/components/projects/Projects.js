@@ -13,8 +13,8 @@ import Project from "./Project";
 function Projects() {
     return (
         <section className={classes.projects}>
-            <h2>See my recent work</h2>
             <figure className={classes.workItems}>
+                <h2 className={classes.header}>See my recent work</h2>
                 <Project
                     img={SublimePortfolio}
                     alt="Image of sublime text themed portfolio design project."
@@ -72,9 +72,7 @@ function Projects() {
                     img={AyameChan}
                     alt="Image Ayame-chan discord bot project."
                     title="Ayame-chan Discord Bot"
-                    tech={[
-                        ["Python", "blue"]
-                    ]}
+                    tech={[["Python", "blue"]]}
                     type=""
                     buttonText="Github"
                     download="https://github.com/Lone1106/ayame-chan-discord-bot"
