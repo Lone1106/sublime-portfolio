@@ -22,7 +22,6 @@ function About() {
                     <span className="blue">Git</span>
                     <span className="grey">Wordpress</span>
                     <span className="red">Elementor</span>
-                    <span className="grey">Prepress</span>
                     <span className="blue">Python</span>
                 </div>
             </figure>
@@ -51,7 +50,6 @@ function About() {
                     <span className="grey">Prepress</span>
                     <span className="green">Proof reading</span>
                     <span className="purple">CTP</span>
-                    <span className="grey">Color correction</span>
                 </div>
             </figure>
         </section>
