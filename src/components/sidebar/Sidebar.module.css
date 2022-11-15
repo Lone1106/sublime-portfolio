@@ -44,3 +44,9 @@
 .navItem:active {
     color: var(--accent-1);
 }
+
+@media (max-width: 57rem) {
+    .sidebar {
+        display: none;
+    }
+}

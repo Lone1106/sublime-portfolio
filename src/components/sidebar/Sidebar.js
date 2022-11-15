@@ -12,19 +12,19 @@ function Sidebar() {
             <ul className={classes.sideNav}>
                 <li>
                     <Link className={classes.navItem} to="/">
-                       <i class="fa-brands fa-react"></i>Home.jsx
+                       <i className="fa-brands fa-css3"></i>Home.css
                     </Link>
 
                     <Link className={classes.navItem} to="/about">
-                        <i class="fa-brands fa-css3"></i>About.css
+                        <i className="fa-brands fa-react"></i>About.jsx
                     </Link>
 
                     <Link className={classes.navItem} to="/projects">
-                        <i class="fa-brands fa-python"></i>Projects.py
+                        <i className="fa-brands fa-python"></i>Projects.py
                     </Link>
 
                     <Link className={classes.navItem} to="/contact">
-                        <i class="fa-brands fa-html5"></i>Contact.html
+                        <i className="fa-brands fa-html5"></i>Contact.html
                     </Link>
                 </li>
             </ul>

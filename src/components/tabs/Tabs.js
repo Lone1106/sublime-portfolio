@@ -13,14 +13,14 @@ function Tabs() {
                     className={({ isActive }) => (isActive ? activeLink : link)}
                     to="/"
                 >
-                    Home.jsx
+                    Home.css
                 </NavLink>
 
                 <NavLink
                     className={({ isActive }) => (isActive ? activeLink : link)}
                     to="/about"
                 >
-                    About.css
+                    About.jsx
                 </NavLink>
                 <NavLink
                     className={({ isActive }) => (isActive ? activeLink : link)}

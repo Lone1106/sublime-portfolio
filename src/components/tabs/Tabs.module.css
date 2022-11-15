@@ -8,6 +8,18 @@
     font-size: 1rem;
 }
 
+@media (max-width: 57rem) {
+    .tabs {
+        grid-column: 1 / -1;
+    }
+}
+
+@media (max-width: 28rem) {
+    .tabs {
+        overflow-x: scroll;
+    }
+}
+
 .filler {
     width: 100%;
     height: 100%;
@@ -18,6 +30,7 @@
     height: 100%;
     list-style: none;
     display: flex;
+    width: 100%;
 }
 
 .link {

@@ -1,6 +1,12 @@
 .wrapper {
     display: grid;
     grid-template-rows: 45px 1fr;
-    grid-template-columns: 175px 1fr;
+    grid-template-columns: 200px 1fr;
     height: 100%;
+}
+
+@media (max-width: 57rem) {
+    .wrapper {
+        grid-template-columns: 1fr;
+    }
 }
