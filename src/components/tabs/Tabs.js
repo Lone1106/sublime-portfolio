@@ -13,7 +13,7 @@ function Tabs() {
                     className={({ isActive }) => (isActive ? activeLink : link)}
                     to="/"
                 >
-                    Home.css
+                    Home.py
                 </NavLink>
 
                 <NavLink
@@ -24,9 +24,9 @@ function Tabs() {
                 </NavLink>
                 <NavLink
                     className={({ isActive }) => (isActive ? activeLink : link)}
-                    to="/projects"
+                    to="/work"
                 >
-                    Projects.py
+                    Work.css
                 </NavLink>
                 <NavLink
                     className={({ isActive }) => (isActive ? activeLink : link)}

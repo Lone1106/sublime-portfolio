@@ -1,3 +1,9 @@
 .projects {
-    padding: 1rem;
+    padding: 4rem;
+}
+
+@media (max-width: 34rem) {
+    .projects {
+        padding: 2rem;
+    }
 }

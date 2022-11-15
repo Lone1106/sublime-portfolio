@@ -8,8 +8,9 @@
     --accent-3: #ffa657;
     --accent-4: #6d7073;
     --accent-5: #79bfff;
+    --accent-6: #7ee787;
 
-/*     --tab-land: 75em;
+    /*     --tab-land: 75em;
     --tab-port: 57em;
     --phone: 34em; */
 }
@@ -29,4 +30,22 @@ html {
 
 i {
     margin-right: 0.5rem;
+}
+
+h2 {
+    font-size: 3rem;
+    color: var(--accent-2);
+    margin-bottom: 1.6rem;
+}
+
+h3 {
+    color: var(--accent-1);
+    font-size: 1.6rem;
+    margin-bottom: 1.2rem;
+}
+
+@media (max-width: 34rem) {
+    h2 {
+        font-size: 2.4rem;
+    }
 }
