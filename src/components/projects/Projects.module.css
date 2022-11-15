@@ -29,6 +29,10 @@
     margin-bottom: 1rem;
 }
 
+.imageWrapper {
+    width: 100%;
+}
+
 .list {
     list-style: none;
     display: flex;

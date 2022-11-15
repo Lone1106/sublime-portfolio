@@ -1,12 +1,29 @@
 import "../../Colors.css";
 import classes from "./Projects.module.css";
 
-function Project({ img, alt, title, git, demo, tech, type, download, buttonText }) {
+function Project({
+    img,
+    alt,
+    title,
+    git,
+    demo,
+    tech,
+    type,
+    download,
+    buttonText,
+}) {
     let buttonCount = type === "web" ? true : false;
 
     return (
         <div className={classes.work}>
-            <img className={classes.image} src={img} alt={alt} loading="lazy" />
+            <div className={classes.imageWrapper}>
+                <img
+                    className={classes.image}
+                    src={img}
+                    alt={alt}
+                    loading="lazy"
+                />
+            </div>
             <div className={classes.info}>
                 <h4>{title}</h4>
                 <ul className={classes.list}>

@@ -89,7 +89,7 @@ function Projects() {
                 <Project
                     img={MeguminWallpaper}
                     alt="Image of megumin badge design."
-                    title="Samurai Wallpaper"
+                    title="Megumin badge"
                     tech={[["Affinity Designer", "blue"]]}
                     type=""
                     buttonText="Download"
