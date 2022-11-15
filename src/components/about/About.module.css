@@ -40,22 +40,10 @@
     .skills {
         width: 100%;
     }
-
-    .about {
-        height: 650px;
-        overflow-y: scroll;
-    }
 }
 
 @media (max-width: 57em) {
     .about {
         height: 100%;
-    }
-}
-
-@media (max-width: 34em) {
-    .about {
-        height: 550px;
-        overflow-y: scroll;
     }
 }

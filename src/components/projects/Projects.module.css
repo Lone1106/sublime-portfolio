@@ -111,23 +111,11 @@
 
     .workItems {
         grid-auto-rows: 350px;
-        height: 950px;
-        overflow-y: scroll;
-    }
-}
-
-@media (max-width: 48em) {
-    .workItems {
-        height: 800px;
     }
 }
 
 @media (max-width: 34em) {
     .work {
         width: 100%;
-    }
-
-    .workItems {
-        height: 500px;
     }
 }
