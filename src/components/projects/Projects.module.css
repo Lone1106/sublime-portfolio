@@ -110,12 +110,16 @@
     }
 
     .workItems {
-        grid-auto-rows: 350px;
+        grid-auto-rows: 430px;
     }
 }
 
 @media (max-width: 34em) {
     .work {
         width: 100%;
+    }
+
+    .workItems {
+        grid-auto-rows: 330px;
     }
 }
