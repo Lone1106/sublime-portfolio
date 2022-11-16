@@ -7,7 +7,7 @@ function BottomBar() {
                 <ul className={classes.socials}>
                     <li>
                         <a
-                            href="https://github.com/Lone1106"
+                            href="https://www.linkedin.com/in/janrei1106/"
                             className={classes.social}
                             rel="noreferrer"
                             target="_blank"
@@ -17,7 +17,7 @@ function BottomBar() {
                     </li>
                     <li>
                         <a
-                            href="https://www.linkedin.com/in/janrei1106/"
+                            href="https://github.com/Lone1106"
                             className={classes.social}
                             rel="noreferrer"
                             target="_blank"

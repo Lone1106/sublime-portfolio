@@ -57,13 +57,19 @@ h1 {
     box-shadow: 0 0 15px var(--accent-3);
 }
 
-@media (max-width: 57rem) {
+@media (max-width: 75em) {
     h1 {
-        font-size: 6rem;
+        font-size: 6.8rem;
     }
 }
 
-@media (max-width: 34rem) {
+@media (max-width: 57em) {
+    h1 {
+        font-size: 5rem;
+    }
+}
+
+@media (max-width: 34em) {
     .job {
         font-size: 1.2rem;
     }
