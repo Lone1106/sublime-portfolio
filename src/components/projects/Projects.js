@@ -99,7 +99,7 @@ function Projects() {
                     img={NeonWallpaper}
                     alt="Image of neon wallpaper design."
                     title="Neon Wallpaper"
-                    tech={[["Affinity Photo", "purple"]]}
+                    tech={[["Affinity Designer", "blue"]]}
                     type=""
                     buttonText="Download"
                     download="https://drive.google.com/drive/folders/1Yd8jJU-yP-QXwTlVtJt7yIZ5XuZi_f6A?usp=share_link"

@@ -1,5 +1,6 @@
 import classes from "./About.module.css";
-import "../../Colors.css";
+
+import Item from "./Item";
 
 function About() {
     return (
@@ -11,48 +12,48 @@ function About() {
                 prepress operator. Learning about web technologies and python as
                 well as japanese language and culture in my free time.
             </p>
-            <figure className={classes.skillItem}>
-                <h3>Technologies</h3>
-                <div className={classes.skills}>
-                    <span className="red">HTML</span>
-                    <span className="blue">CSS</span>
-                    <span className="purple">Sass</span>
-                    <span className="yellow">Javascript</span>
-                    <span className="purple">React</span>
-                    <span className="blue">Git</span>
-                    <span className="grey">Wordpress</span>
-                    <span className="red">Elementor</span>
-                    <span className="blue">Python</span>
-                </div>
-            </figure>
+            <Item
+                title="Technologies"
+                items={[
+                    ["HTML", "red"],
+                    ["CSS", "blue"],
+                    ["Sass", "purple"],
+                    ["Javascript", "yellow"],
+                    ["React", "green"],
+                    ["Git", "grey"],
+                    ["Wordpress", "blue"],
+                    ["Elementor", "red"],
+                    ["Python", "blue"],
+                ]}
+            />
 
-            <figure className={classes.skillItem}>
-                <h3>Software</h3>
-                <div className={classes.skills}>
-                    <span className="blue">Adobe PS</span>
-                    <span className="red">Packedge</span>
-                    <span className="yellow">Adobe AI</span>
-                </div>
-            </figure>
+            <Item
+                title="Software"
+                items={[
+                    ["Adobe PS", "blue"],
+                    ["Packedge", "red"],
+                    ["Adobe AI", "yellow"],
+                ]}
+            />
 
-            <figure className={classes.skillItem}>
-                <h3>Languages</h3>
-                <div className={classes.skills}>
-                    <span className="yellow">German (N)</span>
-                    <span className="blue">English (C1)</span>
-                    <span className="red">Japanese (N3)</span>
-                </div>
-            </figure>
+            <Item
+                title="Languages"
+                items={[
+                    ["German (N)", "yellow"],
+                    ["English (C1)", "blue"],
+                    ["Japanese (N3)", "red"],
+                ]}
+            />
 
-            <figure className={classes.skillItem}>
-                <h3>other Skills</h3>
-                <div className={classes.skills}>
-                    <span className="grey">Prepress</span>
-                    <span className="green">Proof reading</span>
-                    <span className="purple">CTP</span>
-                    <span className="grey">Color correcting</span>
-                </div>
-            </figure>
+            <Item
+                title="other Skills"
+                items={[
+                    ["Prepress", "grey"],
+                    ["Proof reading", "green"],
+                    ["CTP", "purple"],
+                    ["Color correction", "grey"],
+                ]}
+            />
         </section>
     );
 }
