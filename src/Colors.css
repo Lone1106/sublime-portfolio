@@ -12,6 +12,7 @@
 
 .blue:hover {
     background: var(--accent-5);
+    color: var(--main-bg);
 }
 
 .yellow {

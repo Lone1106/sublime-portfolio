@@ -5,8 +5,8 @@ import SamuraiWallpaper from "./img/Samurai-Wallpaper.webp";
 import TerminalWebsite from "./img/Terminal-website.webp";
 import NeonWallpaper from "./img/Neon-wallpaper.webp";
 import MeguminWallpaper from "./img/Megumin.webp";
-import SublimePortfolio from "./img/Sublime-portfolio.webp";
 import AyameChan from "./img/Ayame-Bot.webp";
+import Mockups from "./img/Mockups.webp";
 
 import Project from "./Project";
 
@@ -16,17 +16,13 @@ function Projects() {
             <figure className={classes.workItems}>
                 <h2 className={classes.header}>See my recent work</h2>
                 <Project
-                    img={SublimePortfolio}
-                    alt="Image of sublime text themed portfolio design project."
-                    title="Sublime Portfolio"
-                    git="https://github.com/Lone1106/sublime-portfolio"
-                    demo="https://janrei.de/"
-                    tech={[
-                        ["HTML", "red"],
-                        ["CSS", "blue"],
-                        ["React", "green"],
-                    ]}
-                    type="web"
+                    img={Mockups}
+                    alt="Image of mockup designs."
+                    title="Apple Mockups"
+                    tech={[["Affinity Photo", "purple"]]}
+                    type=""
+                    buttonText="Download"
+                    download="https://drive.google.com/drive/folders/1Ekqos6otfM-iPDgB3hLWPLztV-D7bExH?usp=share_link"
                 />
                 <Project
                     img={FlashcardApp}

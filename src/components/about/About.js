@@ -1,6 +1,7 @@
 import classes from "./About.module.css";
 
 import Item from "./Item";
+import {skills, software, languages, other} from "./Data.js";
 
 function About() {
     return (
@@ -14,45 +15,22 @@ function About() {
             </p>
             <Item
                 title="Technologies"
-                items={[
-                    ["HTML", "red"],
-                    ["CSS", "blue"],
-                    ["Sass", "purple"],
-                    ["Javascript", "yellow"],
-                    ["React", "green"],
-                    ["Git", "grey"],
-                    ["Wordpress", "blue"],
-                    ["Elementor", "red"],
-                    ["Python", "blue"],
-                ]}
+                items={skills}
             />
 
             <Item
                 title="Software"
-                items={[
-                    ["Adobe PS", "blue"],
-                    ["Packedge", "red"],
-                    ["Adobe AI", "yellow"],
-                ]}
+                items={software}
             />
 
             <Item
                 title="Languages"
-                items={[
-                    ["German (N)", "yellow"],
-                    ["English (C1)", "blue"],
-                    ["Japanese (N3)", "red"],
-                ]}
+                items={languages}
             />
 
             <Item
                 title="other Skills"
-                items={[
-                    ["Prepress", "grey"],
-                    ["Proof reading", "green"],
-                    ["CTP", "purple"],
-                    ["Color correction", "grey"],
-                ]}
+                items={other}
             />
         </section>
     );

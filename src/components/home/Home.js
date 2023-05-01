@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import Typed from "react-typed";
+// import Typed from "react-typed";
+import Typewriter from "typewriter-effect";
 
 import classes from "./Home.module.css";
 
@@ -8,18 +9,21 @@ function Home() {
         <section className={classes.home}>
             <div>
                 <h1>Jan Reichherzer</h1>
-                <Typed
-                    className={classes.job}
-                    strings={[
-                        "Media designer DTP",
-                        "Prepress operator",
-                        "Always learning new stuff",
-                        "Javascript and python dev"
-                    ]}
-                    loop
-                    typeSpeed={60}
-                    backSpeed={30}
-                />
+                <span className={classes.job}>
+                    <Typewriter
+                        options={{
+                            strings: [
+                                "Media designer DTP",
+                                "Prepress Operator",
+                                "Always learning about new stuff",
+                            ],
+                            autoStart: true,
+                            loop: true,
+                            delay: "0.1",
+                            pauseFor: 2000
+                        }}
+                    />
+                </span>
                 <div className={classes.buttons}>
                     <Link to="/contact" className={classes.link}>
                         Contact
