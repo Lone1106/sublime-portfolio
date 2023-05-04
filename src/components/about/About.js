@@ -1,7 +1,7 @@
 import classes from "./About.module.css";
 
 import Item from "./Item";
-import {skills, software, languages, other} from "./Data.js";
+import Data from "./Data";
 
 function About() {
     return (
@@ -11,27 +11,12 @@ function About() {
                 Based in southern germany. 2017-2021 apprenticeship as media
                 designer dtp focusing on prepress. Since 03/2021 working as
                 prepress operator. Learning about web technologies and python as
-                well as japanese language and culture in my free time.
+                well as foreign languages and cultures in my free time.
             </p>
-            <Item
-                title="Technologies"
-                items={skills}
-            />
 
-            <Item
-                title="Software"
-                items={software}
-            />
-
-            <Item
-                title="Languages"
-                items={languages}
-            />
-
-            <Item
-                title="other Skills"
-                items={other}
-            />
+            {Data.map((el) => {
+                return <Item title={el.title} items={el.items} />;
+            })}
         </section>
     );
 }

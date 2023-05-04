@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-// import Typed from "react-typed";
 import Typewriter from "typewriter-effect";
 
 import classes from "./Home.module.css";

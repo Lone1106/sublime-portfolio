@@ -1,21 +1,54 @@
 import classes from "./Projects.module.css";
-import FlashcardApp from "./img/Flashcard-app.webp";
-import PortfolioDesign from "./img/Portfolio-website-design.webp";
-import SamuraiWallpaper from "./img/Samurai-Wallpaper.webp";
-import TerminalWebsite from "./img/Terminal-website.webp";
-import NeonWallpaper from "./img/Neon-wallpaper.webp";
-import MeguminWallpaper from "./img/Megumin.webp";
-import AyameChan from "./img/Ayame-Bot.webp";
-import Mockups from "./img/Mockups.webp";
 
-import Project from "./Project";
+import ProjectJS from "./ProjectJS";
+import ProjectDesign from "./ProjectDesign";
+import ProjectPY from "./ProjectPY";
+import { dataDesign, dataJS, dataPY } from "./Data";
 
 function Projects() {
     return (
         <section className={classes.projects}>
             <figure className={classes.workItems}>
                 <h2 className={classes.header}>See my recent work</h2>
-                <Project
+
+                {dataDesign.map((project) => {
+                    return (
+                        <ProjectDesign
+                            img={project.img}
+                            alt={project.alt}
+                            title={project.title}
+                            software={project.software}
+                            download={project.download}
+                        />
+                    );
+                })}
+
+                {dataJS.map((project) => {
+                    return (
+                        <ProjectJS
+                            img={project.img}
+                            alt={project.alt}
+                            title={project.title}
+                            git={project.git}
+                            demo={project.demo}
+                            tech={project.tech}
+                        />
+                    );
+                })}
+
+                {dataPY.map((project) => {
+                    return (
+                        <ProjectPY
+                            img={project.img}
+                            alt={project.alt}
+                            title={project.title}
+                            tech={project.tech}
+                            git={project.git}
+                        />
+                    );
+                })}
+
+                {/*<Project
                     img={Mockups}
                     alt="Image of mockup designs."
                     title="Apple Mockups"
@@ -99,7 +132,7 @@ function Projects() {
                     type=""
                     buttonText="Download"
                     download="https://drive.google.com/drive/folders/1Yd8jJU-yP-QXwTlVtJt7yIZ5XuZi_f6A?usp=share_link"
-                />
+                />*/}
             </figure>
         </section>
     );
