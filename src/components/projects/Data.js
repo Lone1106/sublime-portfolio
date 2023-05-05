@@ -4,7 +4,6 @@ import SamuraiWallpaper from "./img/Samurai-Wallpaper.webp";
 import TerminalWebsite from "./img/Terminal-website.webp";
 import NeonWallpaper from "./img/Neon-wallpaper.webp";
 import MeguminWallpaper from "./img/Megumin.webp";
-import AyameChan from "./img/Ayame-Bot.webp";
 import Mockups from "./img/Mockups.webp";
 
 export const dataDesign = [
@@ -79,15 +78,5 @@ export const dataJS = [
             ["Sass", "purple"],
             ["JS", "yellow"],
         ],
-    },
-];
-
-export const dataPY = [
-    {
-        img: AyameChan,
-        alt: "Image Ayame-chan discord bot project",
-        title: "Ayame-chan Discord Bot",
-        tech: [["Python", "blue"]],
-        git: "https://github.com/Lone1106/ayame-chan-discord-bot",
     },
 ];

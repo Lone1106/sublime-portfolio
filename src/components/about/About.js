@@ -10,8 +10,9 @@ function About() {
             <p className={classes.text}>
                 Based in southern germany. 2017-2021 apprenticeship as media
                 designer dtp focusing on prepress. Since 03/2021 working as
-                prepress operator. Learning about web technologies and python as
-                well as foreign languages and cultures in my free time.
+                prepress operator. Learning about web technologies as well as
+                spanish and japanese as my 2nd and 3rd foreign language in my
+                free time.
             </p>
 
             {Data.map((el) => {
