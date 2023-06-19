@@ -1,15 +1,16 @@
 .about {
     padding: 2rem;
+    width: 100%;
 }
 
 .text {
     font-size: 1.6rem;
     letter-spacing: 0.5px;
-    margin-bottom: 2rem;
 }
 
 .skillItem {
     margin-bottom: 3rem;
+    width: 95%;
 }
 
 .skills {

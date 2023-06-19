@@ -16,7 +16,7 @@ function About() {
             </p>
 
             {Data.map((el) => {
-                return <Item title={el.title} items={el.items} />;
+                return <Item key={el.id} title={el.title} items={el.items} />;
             })}
         </section>
     );

@@ -6,7 +6,11 @@ function Item({ items, title }) {
         <figure className={classes.skillItem}>
             <h3>{title}</h3>
             <div className={classes.skills}>
-                {items.map((item) => <span className={item[1]}>{item[0]}</span>)}
+                {items.map((item) => (
+                    <span key={item.id} className={item.color}>
+                        {item.skill}
+                    </span>
+                ))}
             </div>
         </figure>
     );

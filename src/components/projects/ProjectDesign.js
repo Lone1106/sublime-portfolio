@@ -16,7 +16,11 @@ function ProjectDesign({ img, alt, title, software, download }) {
                 <h4>{title}</h4>
                 <ul className={classes.list}>
                     {software.map((el) => {
-                        return <li className={el[1]}>{el[0]}</li>;
+                        return (
+                            <li key={el.id} className={el.color}>
+                                {el.software}
+                            </li>
+                        );
                     })}
                 </ul>
                 <div className={classes.links}>

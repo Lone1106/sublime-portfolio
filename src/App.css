@@ -31,7 +31,7 @@ i {
 h2 {
     font-size: 3rem;
     color: var(--accent-2);
-    margin-bottom: 1.6rem;
+    margin-bottom: 2rem;
     letter-spacing: 0.5px;
 }
 
@@ -52,4 +52,3 @@ h4 {
         font-size: 2.4rem;
     }
 }
-

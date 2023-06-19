@@ -13,6 +13,7 @@ function Projects() {
                 {dataJS.map((project) => {
                     return (
                         <ProjectJS
+                            key={project.id}
                             img={project.img}
                             alt={project.alt}
                             title={project.title}
@@ -26,6 +27,7 @@ function Projects() {
                 {dataDesign.map((project) => {
                     return (
                         <ProjectDesign
+                            key={project.id}
                             img={project.img}
                             alt={project.alt}
                             title={project.title}

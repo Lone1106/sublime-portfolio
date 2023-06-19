@@ -1,7 +1,7 @@
 import "../../Colors.css";
 import classes from "./Projects.module.css";
 
-function ProjectJS({ img, alt, title, git, demo, tech }) {
+function ProjectJS({ img, alt, title, git, demo, tech, get }) {
     return (
         <div className={classes.work}>
             <div className={classes.imageWrapper}>
@@ -16,7 +16,11 @@ function ProjectJS({ img, alt, title, git, demo, tech }) {
                 <h4>{title}</h4>
                 <ul className={classes.list}>
                     {tech.map((el) => {
-                        return <li className={el[1]}>{el[0]}</li>;
+                        return (
+                            <li key={el.id} className={el.color}>
+                                {el.tech}
+                            </li>
+                        );
                     })}
                 </ul>
                 <div className={classes.links}>
