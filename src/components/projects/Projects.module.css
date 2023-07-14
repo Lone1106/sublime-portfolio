@@ -15,22 +15,38 @@
   gap: 1.6rem;
   border-radius: 4px;
   position: relative;
-  height: 200px;
+  height: 250px;
 }
 
 .header {
   grid-column: 1 / -1;
 }
 
-.image {
-  width: 100%;
-  border-radius: 4px;
-  margin-bottom: 1rem;
-}
-
 .imageWrapper {
   width: 25%;
   height: 100%;
+  background-image: url(img/Placeholder.webp);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.imageWrapper.loaded > img {
+  opacity: 1;
+}
+
+.imageWrapper.loaded {
+  background-image: none;
+}
+
+.imageWrapper > img {
+  opacity: 0;
+  transition: opacity 200ms ease-in;
 }
 
 .info {
@@ -138,19 +154,9 @@
 }
 
 @media (max-width: 34em) {
-  .workItems {
-    grid-auto-rows: 450px;
-  }
-
   .work {
     height: auto;
     flex-direction: column;
-    text-align: center;
-  }
-
-  .links,
-  .list {
-    justify-content: center;
   }
 
   .imageWrapper {

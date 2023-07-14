@@ -20,23 +20,23 @@ const Data = [
       },
       {
         id: 4,
+        color: "blue",
+        skill: "Tailwind",
+      },
+      {
+        id: 5,
         color: "yellow",
         skill: "JS",
       },
       {
-        id: 5,
+        id: 6,
         color: "green",
         skill: "React",
       },
       {
-        id: 6,
+        id: 7,
         color: "grey",
         skill: "Git",
-      },
-      {
-        id: 7,
-        color: "blue",
-        skill: "Wordpress",
       },
     ],
   },

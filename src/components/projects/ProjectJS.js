@@ -1,7 +1,28 @@
+import { useEffect } from "react";
+
 import "../../Colors.css";
 import classes from "./Projects.module.css";
 
 function ProjectJS({ img, alt, title, git, demo, tech, description }) {
+  useEffect(() => {
+    const placeholderDivs = document.querySelectorAll(
+      `.${classes.imageWrapper}`
+    );
+
+    placeholderDivs.forEach((div) => {
+      const img = div.querySelector("img");
+      const loaded = () => {
+        div.classList.add(`${classes.loaded}`);
+      };
+
+      if (img.complete) {
+        loaded();
+      } else {
+        img.addEventListener("load", loaded);
+      }
+    });
+  });
+
   return (
     <div className={classes.work}>
       <div className={classes.imageWrapper}>
