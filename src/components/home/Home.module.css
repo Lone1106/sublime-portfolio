@@ -1,84 +1,84 @@
 .home {
-    padding: 2rem;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+  padding: 2rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 h1 {
-    font-size: 9rem;
-    margin-bottom: 1rem;
-    letter-spacing: 0.5px;
-    color: var(--accent-1);
+  font-size: 9rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0.5px;
+  color: var(--accent-1);
 }
 
 .job {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-    letter-spacing: 0.5px;
-    display: block;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  letter-spacing: 0.5px;
+  display: block;
 }
 
 .buttons {
-    display: flex;
-    gap: 2rem;
+  display: flex;
+  gap: 2rem;
 }
 
 .link:link,
 .link:visited {
-    text-decoration: none;
-    font-size: 1.6rem;
-    letter-spacing: 0.8px;
-    width: 120px;
-    padding: 1rem 1.4rem;
-    font-family: inherit;
-    border-radius: 4px;
-    text-align: center;
-    border: 2px solid transparent;
-    transition: all 0.2s;
+  text-decoration: none;
+  font-size: 1.6rem;
+  letter-spacing: 0.8px;
+  width: 120px;
+  padding: 1rem 1.4rem;
+  font-family: inherit;
+  border-radius: 4px;
+  text-align: center;
+  border: 2px solid transparent;
+  transition: all 0.2s;
 }
 
 .link:first-child {
-    color: var(--accent-2);
-    border: 2px solid var(--accent-2);
+  color: var(--accent-2);
+  border: 2px solid var(--accent-2);
 }
 
 .link:first-child:hover {
-    box-shadow: 0 0 15px var(--accent-2);
+  box-shadow: 0 0 15px var(--accent-2);
 }
 
 .link:last-child {
-    background: var(--accent-3);
-    color: var(--main-bg);
-    font-weight: 600;
+  background: var(--accent-3);
+  color: var(--main-bg);
+  font-weight: 600;
 }
 
 .link:last-child:hover {
-    box-shadow: 0 0 15px var(--accent-3);
+  box-shadow: 0 0 15px var(--accent-3);
 }
 
 @media (max-width: 75em) {
-    h1 {
-        font-size: 6.8rem;
-    }
+  h1 {
+    font-size: 6.8rem;
+  }
 }
 
 @media (max-width: 57em) {
-    h1 {
-        font-size: 5rem;
-    }
+  h1 {
+    font-size: 5rem;
+  }
 }
 
 @media (max-width: 34em) {
-    .job {
-        font-size: 1.2rem;
-    }
+  .job {
+    font-size: 1.2rem;
+  }
 
-    h1 {
-        font-size: 2.6rem;
-    }
+  h1 {
+    font-size: 2.6rem;
+  }
 
-    .link:link {
-        padding: 0.3rem 0.7rem;
-    }
+  .link:link {
+    padding: 0.3rem 0.7rem;
+  }
 }

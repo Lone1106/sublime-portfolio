@@ -1,54 +1,56 @@
 :root {
-    --main-bg: #0d1117;
-    --sidebar: #010409;
-    --text: #c9d1d9;
-    --aside: #22272e;
-    --accent-1: #e16e67;
-    --accent-2: #6e5b89;
-    --accent-3: #ffa657;
-    --accent-4: #6d7073;
-    --accent-5: #79bfff;
-    --accent-6: #7ee787;
+  --main-bg: #0d1117;
+  --sidebar: #010409;
+  --text: #c9d1d9;
+  --aside: #22272e;
+  --accent-1: #e16e67;
+  --accent-2: #6e5b89;
+  --accent-3: #ffa657;
+  --accent-4: #6d7073;
+  --accent-5: #79bfff;
+  --accent-6: #7ee787;
 }
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 html {
-    font-size: 82.5%;
-    background-color: black;
-    font-family: "Ubuntu Mono", monospace;
-    color: var(--text);
+  font-size: 82.5%;
+  background-color: black;
+  font-family: "Ubuntu Mono", monospace;
+  color: var(--text);
 }
 
 i {
-    margin-right: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 h2 {
-    font-size: 3rem;
-    color: var(--accent-2);
-    margin-bottom: 2rem;
-    letter-spacing: 0.5px;
+  font-size: 3rem;
+  color: var(--accent-2);
+  margin-bottom: 2rem;
+  letter-spacing: 0.5px;
 }
 
 h3 {
-    color: var(--accent-1);
-    font-size: 1.6rem;
-    margin-bottom: 1.2rem;
-    letter-spacing: 0.5px;
+  color: var(--accent-1);
+  font-size: 2rem;
+  margin-bottom: 1.2rem;
+  letter-spacing: 0.5px;
 }
 
 h4 {
-    font-size: 1.6rem;
-    margin-bottom: 0.7rem;
+  color: var(--accent-1);
+  font-size: 1.8rem;
+  margin-bottom: 0.6rem;
+  letter-spacing: 0.5px;
 }
 
 @media (max-width: 34rem) {
-    h2 {
-        font-size: 2.4rem;
-    }
+  h2 {
+    font-size: 2.4rem;
+  }
 }

@@ -1,54 +1,54 @@
 .about {
-    padding: 2rem;
-    width: 100%;
+  padding: 2rem;
+  width: 100%;
 }
 
 .text {
-    font-size: 1.6rem;
-    letter-spacing: 0.5px;
-    margin-bottom: 3rem;
+  font-size: 1.6rem;
+  letter-spacing: 0.5px;
+  margin-bottom: 3rem;
 }
 
 .skillItem {
-    margin-bottom: 3rem;
-    width: 95%;
+  margin-bottom: 3rem;
+  width: 95%;
 }
 
 .skills {
-    width: 800px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    font-size: 1.3rem;
-    gap: 1.4rem;
+  width: 800px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  font-size: 1.3rem;
+  gap: 1.4rem;
 }
 
 .skills > * {
-    display: inline-block;
-    text-align: center;
-    border: 1px solid transparent;
-    padding: 0.5rem 1.2rem;
-    border-radius: 4px;
-    transition: background 0.2s;
-    letter-spacing: 0.5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid transparent;
+  padding: 0.5rem 1.2rem;
+  border-radius: 4px;
+  transition: background 0.2s;
+  letter-spacing: 0.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (min-width: 100em) {
-    .text {
-        width: 800px;
-    }
+  .text {
+    width: 800px;
+  }
 }
 
 @media (max-width: 75em) {
-    .skills {
-        width: 100%;
-    }
+  .skills {
+    width: 100%;
+  }
 }
 
 @media (max-width: 57em) {
-    .about {
-        height: 100%;
-    }
+  .about {
+    height: 100%;
+  }
 }

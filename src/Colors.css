@@ -1,50 +1,50 @@
 .red {
-    border: 1px solid var(--accent-1);
+  border: 1px solid var(--accent-1);
 }
 
 .red:hover {
-    background: var(--accent-1);
+  background: var(--accent-1);
 }
 
 .blue {
-    border: 1px solid var(--accent-5);
+  border: 1px solid var(--accent-5);
 }
 
 .blue:hover {
-    background: var(--accent-5);
-    color: var(--main-bg);
+  background: var(--accent-5);
+  color: var(--main-bg);
 }
 
 .yellow {
-    border: 1px solid var(--accent-3);
+  border: 1px solid var(--accent-3);
 }
 
 .yellow:hover {
-    background: var(--accent-3);
-    color: var(--main-bg);
+  background: var(--accent-3);
+  color: var(--main-bg);
 }
 
 .purple {
-    border: 1px solid var(--accent-2);
+  border: 1px solid var(--accent-2);
 }
 
 .purple:hover {
-    background: var(--accent-2);
+  background: var(--accent-2);
 }
 
 .green {
-    border: 1px solid var(--accent-6);
+  border: 1px solid var(--accent-6);
 }
 
 .green:hover {
-    background: var(--accent-6);
-    color: var(--main-bg);
+  background: var(--accent-6);
+  color: var(--main-bg);
 }
 
 .grey {
-    border: 1px solid var(--accent-4);
+  border: 1px solid var(--accent-4);
 }
 
 .grey:hover {
-    background: var(--accent-4);
+  background: var(--accent-4);
 }

@@ -1,13 +1,13 @@
 .mainContainer {
-    width: 100%;
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 175px 1fr;
-    grid-template-rows: 35px 1fr 35px;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 175px 1fr;
+  grid-template-rows: 35px 1fr 35px;
 }
 
 .contentArea {
-    background: var(--main-bg);
-    grid-column: 1 / -1;
-    grid-row: 3 / -3;
+  background: var(--main-bg);
+  grid-column: 1 / -1;
+  grid-row: 3 / -3;
 }

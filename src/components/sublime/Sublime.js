@@ -1,4 +1,8 @@
-import { createBrowserRouter, RouterProvider, redirect } from "react-router-dom";
+import {
+  createBrowserRouter,
+  RouterProvider,
+  redirect,
+} from "react-router-dom";
 import { lazy, Suspense } from "react";
 
 import Wrapper from "../wrapper/Wrapper";
@@ -14,40 +18,40 @@ const About = lazy(() => import("../about/About"));
 const Contact = lazy(() => import("../contact/Contact"));
 
 const router = createBrowserRouter([
-    {
-        path: "/",
-        element: <Wrapper comp={<Home />} />,
-    },
-    {
-        path: "*",
-        loader: () => redirect("/"),
-    },
-    {
-        path: "about",
-        element: <Wrapper comp={<About />} />,
-    },
-    {
-        path: "work",
-        element: <Wrapper comp={<Projects />} />,
-    },
-    {
-        path: "contact",
-        element: <Wrapper comp={<Contact />} />,
-    },
+  {
+    path: "/",
+    element: <Wrapper comp={<Home />} />,
+  },
+  {
+    path: "*",
+    loader: () => redirect("/"),
+  },
+  {
+    path: "about",
+    element: <Wrapper comp={<About />} />,
+  },
+  {
+    path: "work",
+    element: <Wrapper comp={<Projects />} />,
+  },
+  {
+    path: "contact",
+    element: <Wrapper comp={<Contact />} />,
+  },
 ]);
 
 function Sublime() {
-    return (
-        <div className={classes.mainContainer}>
-            <TopBar />
-            <main className={classes.contentArea}>
-                <Suspense fallback={<Loading />}>
-                    <RouterProvider router={router}></RouterProvider>
-                </Suspense>
-            </main>
-            <BottomBar />
-        </div>
-    );
+  return (
+    <div className={classes.mainContainer}>
+      <TopBar />
+      <main className={classes.contentArea}>
+        <Suspense fallback={<Loading />}>
+          <RouterProvider router={router}></RouterProvider>
+        </Suspense>
+      </main>
+      <BottomBar />
+    </div>
+  );
 }
 
 export default Sublime;

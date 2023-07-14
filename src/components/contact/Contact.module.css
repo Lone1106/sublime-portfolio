@@ -1,100 +1,100 @@
 .contact {
-    padding: 2rem;
+  padding: 2rem;
 }
 
 .form {
-    width: 600px;
+  width: 600px;
 }
 
 .label {
-    display: block;
-    font-size: 1.6rem;
-    margin-bottom: 0.6rem;
-    width: 100%;
+  display: block;
+  font-size: 1.6rem;
+  margin-bottom: 0.6rem;
+  width: 100%;
 }
 
 .input,
 .area {
-    display: block;
-    padding: 0.8em;
-    border-radius: 4px;
-    border: none;
-    font-family: inherit;
-    margin-bottom: 1.6rem;
-    width: 100%;
-    font-size: 1.2rem;
-    background: var(--text);
-    outline: none;
-    transition: box-shadow 0.2s;
+  display: block;
+  padding: 0.8em;
+  border-radius: 4px;
+  border: none;
+  font-family: inherit;
+  margin-bottom: 1.6rem;
+  width: 100%;
+  font-size: 1.2rem;
+  background: var(--text);
+  outline: none;
+  transition: box-shadow 0.2s;
 }
 
 .area {
-    resize: none;
-    height: 150px;
+  resize: none;
+  height: 150px;
 }
 
 .input:focus:invalid,
 .area:focus:invalid {
-    box-shadow: 0 0 15px var(--accent-1);
+  box-shadow: 0 0 15px var(--accent-1);
 }
 
 .input:focus:valid,
 .area:focus:valid {
-    box-shadow: 0 0 15px var(--accent-6);
+  box-shadow: 0 0 15px var(--accent-6);
 }
 
 .send {
-    font-family: inherit;
-    width: 120px;
-    text-align: center;
-    padding: 1rem;
-    font-size: 1.4rem;
-    cursor: pointer;
-    background: var(--accent-3);
-    border: none;
-    border-radius: 4px;
-    font-weight: 600;
-    letter-spacing: 0.8px;
-    transition: all 0.2s;
-    transform-origin: left;
+  font-family: inherit;
+  width: 120px;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+  background: var(--accent-3);
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  transition: all 0.2s;
+  transform-origin: left;
 }
 
 .form:invalid .send {
-    opacity: 0;
+  opacity: 0;
 }
 
 .form:valid .send {
-    opacity: 1;
+  opacity: 1;
 }
 
 .send:hover {
-    box-shadow: 0 0 15px var(--accent-3);
+  box-shadow: 0 0 15px var(--accent-3);
 }
 
 .field {
-    width: 100%;
+  width: 100%;
 }
 
 .succ {
-    font-size: 1.6rem;
+  font-size: 1.6rem;
 }
 
 .error {
-    color: var(--accent-1);
-    font-size: 1.6rem;
+  color: var(--accent-1);
+  font-size: 1.6rem;
 }
 
 @media (max-width: 34rem) {
-    .form {
-        width: 100%;
-    }
+  .form {
+    width: 100%;
+  }
 
-    .label {
-        font-size: 1.2rem;
-    }
+  .label {
+    font-size: 1.2rem;
+  }
 
-    .input,
-    .area {
-        font-size: 1rem;
-    }
+  .input,
+  .area {
+    font-size: 1rem;
+  }
 }

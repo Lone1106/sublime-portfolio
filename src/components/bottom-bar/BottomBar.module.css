@@ -1,37 +1,37 @@
 .bottom {
-    background: var(--main-bg);
-    grid-column: 1 / -1;
-    grid-row: 3 / 4;
-    border-top: 1px solid var(--aside);
-    padding: 0 1rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  background: var(--main-bg);
+  grid-column: 1 / -1;
+  grid-row: 3 / 4;
+  border-top: 1px solid var(--aside);
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .socials {
-    list-style: none;
-    display: flex;
-    gap: 2rem;
+  list-style: none;
+  display: flex;
+  gap: 2rem;
 }
 
 .social:link,
 .social:visited {
-    color: var(--text);
-    text-decoration: none;
-    transition: color 0.2s;
-    letter-spacing: .5px;
+  color: var(--text);
+  text-decoration: none;
+  transition: color 0.2s;
+  letter-spacing: 0.5px;
 }
 
 .social:hover {
-    color: var(--accent-5);
+  color: var(--accent-5);
 }
 
 .social:active {
-    color: var(--accent-1);
+  color: var(--accent-1);
 }
 
 .right {
-    display: flex;
-    gap: 2rem;
+  display: flex;
+  gap: 2rem;
 }
