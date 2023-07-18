@@ -1,7 +1,14 @@
 import "../../Colors.css";
 import classes from "./Projects.module.css";
 
-function ProjectDesign({ img, alt, title, software, download, description }) {
+function ProjectDesign({
+  img,
+  alt,
+  title,
+  software,
+  download,
+  description
+}) {
   return (
     <div className={classes.work}>
       <div className={classes.imageWrapper}>
