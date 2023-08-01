@@ -44,6 +44,33 @@ export const dataDesign = [
 export const dataJS = [
   {
     id: 1,
+    img: XyMedia,
+    alt: "Image of simple business website design project",
+    title: "Simple Business Website",
+    description:
+      "A minimal themed business website for selling digital goods. The main points of this site were trying out TailwindCSS as well as building a shopping cart in vanilla JS.",
+    git: "https://github.com/Lone1106/minimal-business",
+    demo: "https://leafy-sprinkles-8fa441.netlify.app/",
+    tech: [
+      {
+        id: 1,
+        color: "red",
+        tech: "HTML",
+      },
+      {
+        id: 2,
+        color: "blue",
+        tech: "CSS",
+      },
+      {
+        id: 3,
+        color: "yellow",
+        tech: "JS",
+      },
+    ],
+  },
+  {
+    id: 2,
     img: FlashcardApp,
     alt: "Image of react flashcard app project",
     title: "Flashcard App",
@@ -55,7 +82,7 @@ export const dataJS = [
       {
         id: 1,
         color: "red",
-        tech: "HTMl",
+        tech: "HTML",
       },
       {
         id: 2,
@@ -75,7 +102,7 @@ export const dataJS = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     img: TerminalWebsite,
     alt: "Image of terminal styled website project",
     title: "Terminal Website",
@@ -87,39 +114,12 @@ export const dataJS = [
       {
         id: 1,
         color: "red",
-        tech: "HTMl",
+        tech: "HTML",
       },
       {
         id: 2,
         color: "blue",
         tech: "Tailwind",
-      },
-      {
-        id: 3,
-        color: "yellow",
-        tech: "JS",
-      },
-    ],
-  },
-  {
-    id: 3,
-    img: XyMedia,
-    alt: "Image of simple business website design project",
-    title: "Simple Business Website",
-    description:
-      "A minimal themed business website for selling digital goods. The main points of this site were trying out TailwindCSS as well as building a shopping cart in vanilla JS.",
-    git: "https://github.com/Lone1106/minimal-business",
-    demo: "https://leafy-sprinkles-8fa441.netlify.app/",
-    tech: [
-      {
-        id: 1,
-        color: "red",
-        tech: "HTMl",
-      },
-      {
-        id: 2,
-        color: "blue",
-        tech: "CSS",
       },
       {
         id: 3,

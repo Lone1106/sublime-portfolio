@@ -38,6 +38,11 @@ const Data = [
         color: "grey",
         skill: "Git",
       },
+      {
+        id: 8,
+        color: "green",
+        skill: "Vue",
+      },
     ],
   },
   {
@@ -58,6 +63,11 @@ const Data = [
         id: 3,
         color: "red",
         skill: "Packedge",
+      },
+      {
+        id: 4,
+        color: "red",
+        skill: "ArtPro",
       },
     ],
   },

@@ -25,7 +25,6 @@
 .imageWrapper {
   width: 25%;
   height: 100%;
-  background-image: url(img/Placeholder.webp);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,19 +33,6 @@
 .image {
   width: 100%;
   border-radius: 4px;
-}
-
-.imageWrapper.loaded > img {
-  opacity: 1;
-}
-
-.imageWrapper.loaded {
-  background-image: none;
-}
-
-.imageWrapper > img {
-  opacity: 0;
-  transition: opacity 200ms ease-in;
 }
 
 .info {

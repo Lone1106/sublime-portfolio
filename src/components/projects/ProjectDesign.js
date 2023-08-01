@@ -1,3 +1,6 @@
+import { useState, useEffect } from "react";
+import { Blurhash } from "react-blurhash";
+
 import "../../Colors.css";
 import classes from "./Projects.module.css";
 
@@ -7,12 +10,36 @@ function ProjectDesign({
   title,
   software,
   download,
-  description
+  description,
 }) {
+  const [imageLoaded, setImageLoaded] = useState(false);
+
+  useEffect(() => {
+    const image = new Image();
+    image.onload = () => {
+      setImageLoaded(true);
+    };
+    image.src = img;
+  }, [img]);
+
   return (
     <div className={classes.work}>
       <div className={classes.imageWrapper}>
-        <img className={classes.image} src={img} alt={alt} loading="lazy" />
+        {!imageLoaded && (
+          <Blurhash
+            hash="L03l5OWBofayofayj[ayayj[ayj["
+            width="100%"
+            height="220px"
+          />
+        )}
+        {imageLoaded && (
+          <img
+            className={classes.image}
+            src={img}
+            alt={alt}
+            loading="lazy"
+          />
+        )}
       </div>
       <div className={classes.info}>
         <h3>{title}</h3>
