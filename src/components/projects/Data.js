@@ -1,8 +1,8 @@
 import FlashcardApp from "./img/Flashcard-app.webp";
 import XyMedia from "./img/XY-Media.webp";
-import SamuraiWallpaper from "./img/Samurai-Wallpaper.webp";
 import TerminalWebsite from "./img/Terminal-website.webp";
 import Mockups from "./img/Mockups.webp";
+import JBlog from "./img/jBlog.webp";
 
 export const dataDesign = [
   {
@@ -22,28 +22,33 @@ export const dataDesign = [
     download:
       "https://drive.google.com/drive/folders/1Ekqos6otfM-iPDgB3hLWPLztV-D7bExH?usp=share_link",
   },
-  {
-    id: 2,
-    img: SamuraiWallpaper,
-    alt: "Image of samurai wallpaper design",
-    title: "Samurai Wallpaper",
-    description:
-      "A free to use gray scale samurai themed wallpaper for all of you samurai lovers out there.",
-    software: [
-      {
-        id: 1,
-        color: "purple",
-        software: "Affinity Photo",
-      },
-    ],
-    download:
-      "https://drive.google.com/drive/folders/1RVRjNyu60PAgtwaDN5x58Dx3563UJkCy?usp=share_link",
-  },
 ];
 
 export const dataJS = [
   {
     id: 1,
+    img: JBlog,
+    alt: "Image of jBlog practice project",
+    title: "jBlog - Blog Website",
+    description:
+      "A full fledged blog website project to get more familiar with VueJS, Vue-router and Vuex.",
+    git: "https://github.com/Lone1106/jBlog",
+    demo: "https://fanciful-kataifi-874129.netlify.app/",
+    tech: [
+      {
+        id: 1,
+        color: "green",
+        tech: "Vue",
+      },
+      {
+        id: 2,
+        color: "blue",
+        tech: "Tailwind",
+      },
+    ],
+  },
+  {
+    id: 2,
     img: XyMedia,
     alt: "Image of simple business website design project",
     title: "Simple Business Website",
@@ -60,7 +65,7 @@ export const dataJS = [
       {
         id: 2,
         color: "blue",
-        tech: "CSS",
+        tech: "Tailwind",
       },
       {
         id: 3,
@@ -70,10 +75,10 @@ export const dataJS = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     img: FlashcardApp,
     alt: "Image of react flashcard app project",
-    title: "Flashcard App",
+    title: "Flashy- Flashcard App",
     description:
       "A basic flashcard application built with react and firebase. It's main use was as a practice project to get myself more familiar with react, routing and using firebase as a backend service.",
     git: "https://github.com/Lone1106/flashcard-app",
@@ -81,28 +86,18 @@ export const dataJS = [
     tech: [
       {
         id: 1,
-        color: "red",
-        tech: "HTML",
-      },
-      {
-        id: 2,
-        color: "blue",
-        tech: "CSS",
-      },
-      {
-        id: 3,
         color: "green",
         tech: "React",
       },
       {
-        id: 4,
+        id: 2,
         color: "red",
         tech: "Firebase",
       },
     ],
   },
   {
-    id: 3,
+    id: 4,
     img: TerminalWebsite,
     alt: "Image of terminal styled website project",
     title: "Terminal Website",
@@ -119,7 +114,7 @@ export const dataJS = [
       {
         id: 2,
         color: "blue",
-        tech: "Tailwind",
+        tech: "CSS",
       },
       {
         id: 3,
