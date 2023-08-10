@@ -78,7 +78,7 @@ export const dataJS = [
     id: 3,
     img: FlashcardApp,
     alt: "Image of react flashcard app project",
-    title: "Flashy- Flashcard App",
+    title: "Flashy - Flashcard App",
     description:
       "A basic flashcard application built with react and firebase. It's main use was as a practice project to get myself more familiar with react, routing and using firebase as a backend service.",
     git: "https://github.com/Lone1106/flashcard-app",
