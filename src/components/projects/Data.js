@@ -3,30 +3,12 @@ import XyMedia from "./img/XY-Media.webp";
 import TerminalWebsite from "./img/Terminal-website.webp";
 import Mockups from "./img/Mockups.webp";
 import JBlog from "./img/jBlog.webp";
+import PortfolioCatalina from "./img/Portfolio-catalina.webp";
 
-export const dataDesign = [
+export const projectsData = [
   {
     id: 1,
-    img: Mockups,
-    alt: "Image of mockup designs",
-    title: "Mockup set",
-    description:
-      "A free to use apple inspired mockup set of various devices. It's a perfect set for you to place your web designs on and showcase them on your portfolio!",
-    software: [
-      {
-        id: 1,
-        color: "purple",
-        software: "Affinity Photo",
-      },
-    ],
-    download:
-      "https://drive.google.com/drive/folders/1Ekqos6otfM-iPDgB3hLWPLztV-D7bExH?usp=share_link",
-  },
-];
-
-export const dataJS = [
-  {
-    id: 1,
+    type: "web",
     img: JBlog,
     alt: "Image of jBlog practice project",
     title: "jBlog - Blog Website",
@@ -49,6 +31,25 @@ export const dataJS = [
   },
   {
     id: 2,
+    type: "design",
+    img: PortfolioCatalina,
+    alt: "Image of catalina portfolio redesign",
+    title: "Portfolio Redesign",
+    description:
+      "Potfolio page redesign for a exising portoflio page of a 3D game design student. The design is kept simple enough to be implemented with website builders like Wix easily.",
+    software: [
+      {
+        id: 1,
+        color: "purple",
+        software: "Figma",
+      },
+    ],
+    download:
+      "https://www.figma.com/file/VI6Kov6pAE1uXpUhtCosqg/Portfolio-Redesign-Cat?type=design&node-id=77%3A1958&mode=design&t=ZLMB2xktWMuFIird-1",
+  },
+  {
+    id: 3,
+    type: "web",
     img: XyMedia,
     alt: "Image of simple business website design project",
     title: "Simple Business Website",
@@ -75,7 +76,26 @@ export const dataJS = [
     ],
   },
   {
-    id: 3,
+    id: 4,
+    type: "design",
+    img: Mockups,
+    alt: "Image of mockup designs",
+    title: "Mockup set",
+    description:
+      "A free to use apple inspired mockup set of various devices. It's a perfect set for you to place your web designs on and showcase them on your portfolio!",
+    software: [
+      {
+        id: 1,
+        color: "purple",
+        software: "Affinity Photo",
+      },
+    ],
+    download:
+      "https://drive.google.com/drive/folders/1Ekqos6otfM-iPDgB3hLWPLztV-D7bExH?usp=share_link",
+  },
+  {
+    id: 5,
+    type: "web",
     img: FlashcardApp,
     alt: "Image of react flashcard app project",
     title: "Flashy - Flashcard App",
@@ -97,7 +117,8 @@ export const dataJS = [
     ],
   },
   {
-    id: 4,
+    id: 6,
+    type: "web",
     img: TerminalWebsite,
     alt: "Image of terminal styled website project",
     title: "Terminal Website",

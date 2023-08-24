@@ -66,6 +66,11 @@ const Data = [
       },
       {
         id: 4,
+        color: "purple",
+        skill: "Figma",
+      },
+      {
+        id: 5,
         color: "red",
         skill: "ArtPro",
       },
@@ -99,7 +104,7 @@ const Data = [
       {
         id: 1,
         color: "grey",
-        skill: "Prepress",
+        skill: "Prepress Offset",
       },
       {
         id: 2,

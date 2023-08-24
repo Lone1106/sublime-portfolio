@@ -7,6 +7,7 @@
   font-size: 1.6rem;
   letter-spacing: 0.5px;
   margin-bottom: 3rem;
+  line-height: 1.4;
 }
 
 .skillItem {
@@ -16,10 +17,10 @@
 
 .skills {
   width: 800px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  display: flex;
   font-size: 1.3rem;
-  gap: 1.4rem;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .skills > * {

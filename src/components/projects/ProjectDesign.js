@@ -61,7 +61,7 @@ function ProjectDesign({
             rel="noreferrer"
             data-type="download"
           >
-            Download
+            Files
           </a>
         </div>
       </div>
