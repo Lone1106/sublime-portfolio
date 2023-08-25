@@ -4,14 +4,7 @@ import { Blurhash } from "react-blurhash";
 import "../../Colors.css";
 import classes from "./Projects.module.css";
 
-function ProjectDesign({
-  img,
-  alt,
-  title,
-  software,
-  download,
-  description,
-}) {
+function ProjectDesign({ img, alt, title, software, link, description }) {
   const [imageLoaded, setImageLoaded] = useState(false);
 
   useEffect(() => {
@@ -56,12 +49,12 @@ function ProjectDesign({
         <div className={classes.links}>
           <a
             className={classes.link}
-            href={download}
+            href={link}
             target="_blank"
             rel="noreferrer"
             data-type="download"
           >
-            Files
+            Behance
           </a>
         </div>
       </div>

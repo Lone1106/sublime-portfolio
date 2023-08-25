@@ -32,7 +32,7 @@ function Projects() {
                 title={project.title}
                 description={project.description}
                 software={project.software}
-                download={project.download}
+                link={project.behance}
               />
             );
           }

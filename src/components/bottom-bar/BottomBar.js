@@ -12,7 +12,7 @@ function BottomBar() {
               rel="noreferrer"
               target="_blank"
             >
-              <i className="fa-brands fa-linkedin"></i>LinkedIn
+              <i className="fa-brands fa-linkedin"></i>
             </a>
           </li>
           <li>
@@ -22,7 +22,17 @@ function BottomBar() {
               rel="noreferrer"
               target="_blank"
             >
-              <i className="fa-brands fa-square-github"></i>Github
+              <i className="fa-brands fa-square-github"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.behance.net/janreichherzer"
+              className={classes.social}
+              rel="noreferrer"
+              target="_blank"
+            >
+              <i className="fa-brands fa-square-behance"></i>
             </a>
           </li>
         </ul>

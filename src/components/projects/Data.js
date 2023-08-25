@@ -44,8 +44,8 @@ export const projectsData = [
         software: "Figma",
       },
     ],
-    download:
-      "https://www.figma.com/file/VI6Kov6pAE1uXpUhtCosqg/Portfolio-Redesign-Cat?type=design&node-id=77%3A1958&mode=design&t=ZLMB2xktWMuFIird-1",
+    behance:
+      "https://www.behance.net/gallery/178502985/3D-game-design-student-portfolio-redesign",
   },
   {
     id: 3,
@@ -90,8 +90,8 @@ export const projectsData = [
         software: "Affinity Photo",
       },
     ],
-    download:
-      "https://drive.google.com/drive/folders/1Ekqos6otfM-iPDgB3hLWPLztV-D7bExH?usp=share_link",
+    behance:
+      "https://www.behance.net/gallery/178505525/Mockup-Template-Set",
   },
   {
     id: 5,
