@@ -1,41 +1,17 @@
 import classes from "./BottomBar.module.css";
 
 function BottomBar() {
+  let copyYear = new Date().getFullYear();
+
   return (
     <aside className={classes.bottom}>
       <div className={classes.left}>
-        <ul className={classes.socials}>
-          <li>
-            <a
-              href="https://www.linkedin.com/in/janrei1106/"
-              className={classes.social}
-              rel="noreferrer"
-              target="_blank"
-            >
-              <i className="fa-brands fa-linkedin"></i>
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://github.com/Lone1106"
-              className={classes.social}
-              rel="noreferrer"
-              target="_blank"
-            >
-              <i className="fa-brands fa-square-github"></i>
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.behance.net/janreichherzer"
-              className={classes.social}
-              rel="noreferrer"
-              target="_blank"
-            >
-              <i className="fa-brands fa-square-behance"></i>
-            </a>
-          </li>
-        </ul>
+        <p className={classes.copy}>
+          <span className={classes.span}>
+            &copy;{copyYear} Jan Reichherzer.{" "}
+          </span>
+          <span className={classes.span}>All rights reserved.</span>
+        </p>
       </div>
       <div className={classes.right}>
         <p>

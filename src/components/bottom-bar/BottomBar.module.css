@@ -9,29 +9,18 @@
   align-items: center;
 }
 
-.socials {
-  list-style: none;
-  display: flex;
-  gap: 1rem;
-}
-
-.social:link,
-.social:visited {
-  color: var(--text);
-  text-decoration: none;
-  transition: color 0.2s;
-  letter-spacing: 0.5px;
-}
-
-.social:hover {
-  color: var(--accent-5);
-}
-
-.social:active {
-  color: var(--accent-1);
-}
-
 .right {
   display: flex;
   gap: 2rem;
+}
+
+@media (max-width: 34em) {
+  .copy {
+    font-size: 0.75rem;
+    line-height: 1.2;
+  }
+
+  .span {
+    display: block;
+  }
 }
