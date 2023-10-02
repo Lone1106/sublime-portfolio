@@ -2,8 +2,7 @@ import FlashcardApp from "./img/Flashcard-app.webp";
 import XyMedia from "./img/XY-Media.webp";
 import Mockups from "./img/Mockups.webp";
 import JBlog from "./img/jBlog.webp";
-import PortfolioCatalina from "./img/Portfolio-catalina.webp";
-import SteffisFußpflege from "./img/Steffis-fußpflege.webp";
+import Wallpapers from "./img/Wallpapers.webp";
 
 export const projectsData = [
   {
@@ -31,42 +30,6 @@ export const projectsData = [
   },
   {
     id: 2,
-    type: "design",
-    img: SteffisFußpflege,
-    alt: "Image of website design Steffis Fußpflege",
-    title: "Chiropody Salon Website Design",
-    description:
-      "Website design for a local one person run chiropody salon.",
-    software: [
-      {
-        id: 1,
-        color: "purple",
-        software: "Figma",
-      },
-    ],
-    behance:
-      "https://www.behance.net/gallery/180002583/Chiropody-Salon-Website-Design",
-  },
-  {
-    id: 3,
-    type: "design",
-    img: PortfolioCatalina,
-    alt: "Image of catalina portfolio redesign",
-    title: "Portfolio Redesign",
-    description:
-      "Potfolio page redesign for a exising portoflio page of a 3D game design student. The design is kept simple enough to be implemented with website builders like Wix easily.",
-    software: [
-      {
-        id: 1,
-        color: "purple",
-        software: "Figma",
-      },
-    ],
-    behance:
-      "https://www.behance.net/gallery/178502985/3D-game-design-student-portfolio-redesign",
-  },
-  {
-    id: 4,
     type: "web",
     img: XyMedia,
     alt: "Image of simple business website design project",
@@ -94,7 +57,25 @@ export const projectsData = [
     ],
   },
   {
-    id: 5,
+    id: 3,
+    type: "design",
+    img: Wallpapers,
+    alt: "Diverse Wallapapers",
+    title: "diverse Wallpapers",
+    description:
+      "A collection of free to use and download wallpapers which I created over the time.",
+    software: [
+      {
+        id: 1,
+        color: "purple",
+        software: "Affinity Photo",
+      },
+    ],
+    behance:
+      "https://www.behance.net/gallery/181346375/Collection-of-free-Wallpapers",
+  },
+  {
+    id: 4,
     type: "design",
     img: Mockups,
     alt: "Image of mockup designs",
@@ -112,7 +93,7 @@ export const projectsData = [
       "https://www.behance.net/gallery/178505525/Mockup-Template-Set",
   },
   {
-    id: 6,
+    id: 5,
     type: "web",
     img: FlashcardApp,
     alt: "Image of react flashcard app project",
