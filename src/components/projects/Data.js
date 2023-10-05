@@ -3,6 +3,7 @@ import XyMedia from "./img/XY-Media.webp";
 import Mockups from "./img/Mockups.webp";
 import JBlog from "./img/jBlog.webp";
 import Wallpapers from "./img/Wallpapers.webp";
+import BEredesign from "./img/BEredesign.webp";
 
 export const projectsData = [
   {
@@ -30,6 +31,24 @@ export const projectsData = [
   },
   {
     id: 2,
+    type: "design",
+    img: BEredesign,
+    alt: "BE label printer website redesign",
+    title: "BE Label Printer website redesign",
+    description:
+      "Redesign of the website of a label printing company operating worldwide. Their current website doesnt reflect the modern and innovative approach of the company and looks quite outdated. The goal therefor was to give the company a more modern web presence.",
+    software: [
+      {
+        id: 1,
+        color: "purple",
+        software: "Figma",
+      },
+    ],
+    behance:
+      "https://www.behance.net/gallery/181584337/BE-Label-Printer-website-redesign",
+  },
+  {
+    id: 3,
     type: "web",
     img: XyMedia,
     alt: "Image of simple business website design project",
@@ -57,7 +76,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     type: "design",
     img: Wallpapers,
     alt: "Diverse Wallapapers",
@@ -75,7 +94,7 @@ export const projectsData = [
       "https://www.behance.net/gallery/181346375/Collection-of-free-Wallpapers",
   },
   {
-    id: 4,
+    id: 5,
     type: "design",
     img: Mockups,
     alt: "Image of mockup designs",
@@ -93,7 +112,7 @@ export const projectsData = [
       "https://www.behance.net/gallery/178505525/Mockup-Template-Set",
   },
   {
-    id: 5,
+    id: 6,
     type: "web",
     img: FlashcardApp,
     alt: "Image of react flashcard app project",
