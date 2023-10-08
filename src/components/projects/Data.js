@@ -31,21 +31,26 @@ export const projectsData = [
   },
   {
     id: 2,
-    type: "design",
+    type: "web",
     img: BEredesign,
-    alt: "BE label printer website redesign",
-    title: "BE Label Printer website redesign",
+    alt: "BE label website redesign",
+    title: "BE Label website redesign",
     description:
-      "Redesign of the website of a label printing company operating worldwide. Their current website doesnt reflect the modern and innovative approach of the company and looks quite outdated. The goal therefor was to give the company a more modern web presence.",
-    software: [
+      "Redesign of the website of a label printing company operating world wide. Their current website doesnt reflect the modern and innovative approach of the company and looks quite outdated. The goal therefor was to give the company a more modern web presence.",
+    git: "https://github.com/Lone1106/be-label",
+    demo: "https://luminous-treacle-b8cb1e.netlify.app/",
+    tech: [
       {
         id: 1,
-        color: "purple",
-        software: "Figma",
+        color: "green",
+        tech: "React",
+      },
+      {
+        id: 2,
+        color: "blue",
+        tech: "Tailwind",
       },
     ],
-    behance:
-      "https://www.behance.net/gallery/181584337/BE-Label-Printer-website-redesign",
   },
   {
     id: 3,
