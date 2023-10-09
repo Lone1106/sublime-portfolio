@@ -59,18 +59,6 @@
   transform-origin: left;
 }
 
-.form:invalid .send {
-  opacity: 0;
-}
-
-.form:valid .send {
-  opacity: 1;
-}
-
-.send:hover {
-  box-shadow: 0 0 15px var(--accent-3);
-}
-
 .field {
   width: 100%;
 }

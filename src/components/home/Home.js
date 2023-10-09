@@ -12,8 +12,9 @@ function Home() {
           <Typewriter
             options={{
               strings: [
-                "Media designer DTP",
-                "Prepress Operator",
+                "Aspiring UI Designer and Web dev",
+                "Media designer Prepress",
+                "Interested in foreign languages",
                 "Always learning about new stuff",
               ],
               autoStart: true,

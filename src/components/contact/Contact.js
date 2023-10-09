@@ -16,7 +16,7 @@ function Contact() {
         process.env.REACT_APP_SERVICE,
         process.env.REACT_APP_TEMPLATE,
         form.current,
-        process.env.REACT_APP_PUBLIC
+        process.env.REACT_APP_PUBLIC,
       )
       .then(
         () => {
@@ -25,7 +25,7 @@ function Contact() {
         },
         (error) => {
           setError(true);
-        }
+        },
       );
   };
 
