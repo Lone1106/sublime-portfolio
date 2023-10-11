@@ -36,25 +36,3 @@
 .title {
   font-size: 1rem;
 }
-
-.socials {
-  list-style: none;
-  display: flex;
-  gap: 1rem;
-}
-
-.social:link,
-.social:visited {
-  color: var(--text);
-  text-decoration: none;
-  transition: color 0.2s;
-  letter-spacing: 0.5px;
-}
-
-.social:hover {
-  color: var(--accent-5);
-}
-
-.social:active {
-  color: var(--accent-1);
-}

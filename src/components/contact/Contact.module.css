@@ -57,6 +57,19 @@
   letter-spacing: 0.8px;
   transition: all 0.2s;
   transform-origin: left;
+  color: var(--main-bg);
+}
+
+.send:hover {
+  box-shadow: 0 0 15px var(--accent-3);
+}
+
+.send:disabled:hover {
+  box-shadow: 0 0 0 var(--accent-3);
+}
+
+.send:disabled {
+  background: var(--aside);
 }
 
 .field {
@@ -70,6 +83,30 @@
 .error {
   color: var(--accent-1);
   font-size: 1.6rem;
+}
+
+.socials {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin-top: 3.8rem;
+}
+
+.social:link,
+.social:visited {
+  color: var(--text);
+  text-decoration: none;
+  transition: color 0.2s;
+  letter-spacing: 0.5px;
+  font-size: 3.8rem;
+}
+
+.social:hover {
+  color: var(--accent-5);
+}
+
+.social:active {
+  color: var(--accent-1);
 }
 
 @media (max-width: 34rem) {

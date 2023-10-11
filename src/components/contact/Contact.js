@@ -8,6 +8,16 @@ function Contact() {
   const [hidden, setHidden] = useState(false);
   const [error, setError] = useState(false);
 
+  const checkForm = () => {
+    if (
+      form.current["0"].value.trim() !== "" &&
+      form.current["1"].value.trim() !== "" &&
+      form.current["2"].value.trim() !== ""
+    ) {
+      form.current["3"].disabled = false;
+    }
+  };
+
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -34,7 +44,12 @@ function Contact() {
       <h2>Toss me a message</h2>
 
       {!hidden && (
-        <form ref={form} className={classes.form} onSubmit={sendEmail}>
+        <form
+          ref={form}
+          className={classes.form}
+          onSubmit={sendEmail}
+          onChange={checkForm}
+        >
           <label className={classes.label} htmlFor="name">
             Name
           </label>
@@ -75,7 +90,7 @@ function Contact() {
               An error occured while sending. Try again later.
             </p>
           )}
-          <button className={classes.send} type="submit">
+          <button className={classes.send} type="submit" disabled>
             Send
           </button>
         </form>
@@ -85,6 +100,49 @@ function Contact() {
           <p className={classes.succ}>Email successfully sent!</p>
         </div>
       )}
+
+      <ul className={classes.socials}>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/janrei1106/"
+            className={classes.social}
+            rel="noreferrer"
+            target="_blank"
+          >
+            <i className="fa-brands fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/Lone1106"
+            className={classes.social}
+            rel="noreferrer"
+            target="_blank"
+          >
+            <i className="fa-brands fa-square-github"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.behance.net/janreichherzer"
+            className={classes.social}
+            rel="noreferrer"
+            target="_blank"
+          >
+            <i className="fa-brands fa-square-behance"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.xing.com/profile/Jan_Reichherzer/cv"
+            className={classes.social}
+            rel="noreferrer"
+            target="_blank"
+          >
+            <i className="fa-brands fa-square-xing"></i>
+          </a>
+        </li>
+      </ul>
     </section>
   );
 }
