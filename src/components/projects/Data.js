@@ -1,8 +1,5 @@
-import FlashcardApp from "./img/Flashcard-app.webp";
 import XyMedia from "./img/XY-Media.webp";
-import Mockups from "./img/Mockups.webp";
 import JBlog from "./img/jBlog.webp";
-import Wallpapers from "./img/Wallpapers.webp";
 import BEredesign from "./img/BEredesign.webp";
 
 export const projectsData = [
@@ -77,65 +74,6 @@ export const projectsData = [
         id: 3,
         color: "yellow",
         tech: "JS",
-      },
-    ],
-  },
-  {
-    id: 4,
-    type: "design",
-    img: Wallpapers,
-    alt: "Diverse Wallapapers",
-    title: "diverse Wallpapers",
-    description:
-      "A collection of free to use and download wallpapers which I created over the time.",
-    software: [
-      {
-        id: 1,
-        color: "purple",
-        software: "Affinity Photo",
-      },
-    ],
-    behance:
-      "https://www.behance.net/gallery/181346375/Collection-of-free-Wallpapers",
-  },
-  {
-    id: 5,
-    type: "design",
-    img: Mockups,
-    alt: "Image of mockup designs",
-    title: "Mockup set",
-    description:
-      "A free to use apple inspired mockup set of various devices. It's a perfect set for you to place your web designs on and showcase them on your portfolio!",
-    software: [
-      {
-        id: 1,
-        color: "purple",
-        software: "Affinity Photo",
-      },
-    ],
-    behance:
-      "https://www.behance.net/gallery/178505525/Mockup-Template-Set",
-  },
-  {
-    id: 6,
-    type: "web",
-    img: FlashcardApp,
-    alt: "Image of react flashcard app project",
-    title: "Flashy - Flashcard App",
-    description:
-      "A basic flashcard application built with react and firebase. It's main use was as a practice project to get myself more familiar with react, routing and using firebase as a backend service.",
-    git: "https://github.com/Lone1106/flashcard-app",
-    demo: "https://harmonious-platypus-6d8124.netlify.app",
-    tech: [
-      {
-        id: 1,
-        color: "green",
-        tech: "React",
-      },
-      {
-        id: 2,
-        color: "red",
-        tech: "Firebase",
       },
     ],
   },
