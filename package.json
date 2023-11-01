@@ -4,7 +4,6 @@
   "author": "Jan Reichherzer",
   "private": true,
   "dependencies": {
-    "@emailjs/browser": "^3.9.1",
     "blurhash": "^2.0.5",
     "react": "^18.2.0",
     "react-blurhash": "^0.3.0",

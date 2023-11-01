@@ -1,5 +1,4 @@
 import { useRef, useState } from "react";
-import emailjs from "@emailjs/browser";
 
 import classes from "./Contact.module.css";
 
@@ -20,23 +19,7 @@ function Contact() {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
-    emailjs
-      .sendForm(
-        process.env.REACT_APP_SERVICE,
-        process.env.REACT_APP_TEMPLATE,
-        form.current,
-        process.env.REACT_APP_PUBLIC,
-      )
-      .then(
-        () => {
-          e.target.reset();
-          setHidden(true);
-        },
-        (error) => {
-          setError(true);
-        },
-      );
+    setHidden(true);
   };
 
   return (
@@ -97,7 +80,10 @@ function Contact() {
       )}
       {hidden && (
         <div className={classes.field}>
-          <p className={classes.succ}>Email successfully sent!</p>
+          <p className={classes.succ}>
+            Email successfully sent! Thats what it would be saying if there
+            would be an actual email service connected!
+          </p>
         </div>
       )}
 
